@@ -1,0 +1,166 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "binutils@latest": {
+      "last_modified": "2024-12-23T21:10:33Z",
+      "resolved": "github:NixOS/nixpkgs/de1864217bfa9b5845f465e771e0ecb48b30e02d#binutils",
+      "source": "devbox-search",
+      "version": "2.43.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/78fc7ljk8z40kf43bcnzlk85xyn2pjcl-binutils-wrapper-2.43.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/zz9pd0pmsfd3vj8fjlx5wd71l39k364d-binutils-wrapper-2.43.1-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/qyk0nhw6jq8iwj5gfcx44g512d0zffa2-binutils-wrapper-2.43.1-info"
+            }
+          ],
+          "store_path": "/nix/store/78fc7ljk8z40kf43bcnzlk85xyn2pjcl-binutils-wrapper-2.43.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zy69cdp2ymkv7kzc9z7cw2nsqmkcmpva-binutils-wrapper-2.43.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/r80hhhlxpwgljfd6bpc3nflsfqcbmxvc-binutils-wrapper-2.43.1-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/rckygafc7vxzasfl7pig1a5r532lf5sn-binutils-wrapper-2.43.1-info"
+            }
+          ],
+          "store_path": "/nix/store/zy69cdp2ymkv7kzc9z7cw2nsqmkcmpva-binutils-wrapper-2.43.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6n2v28y80cnk5gnd6hdsvsyy02b5s1qs-binutils-wrapper-2.43.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/v40fji25h966vyihqx0s1vs75gnb2wr0-binutils-wrapper-2.43.1-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/7f6vn32966cx2pish18slysr9d4m7745-binutils-wrapper-2.43.1-info"
+            }
+          ],
+          "store_path": "/nix/store/6n2v28y80cnk5gnd6hdsvsyy02b5s1qs-binutils-wrapper-2.43.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/srcmmqi8kxjfygd0hyy42c8hv6cws83b-binutils-wrapper-2.43.1",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/nyhp9wiym5gpgfrf170lb850zf85ay9r-binutils-wrapper-2.43.1-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/a0p3y3k0yrz120lpr2ci5bycrl95nda8-binutils-wrapper-2.43.1-info"
+            }
+          ],
+          "store_path": "/nix/store/srcmmqi8kxjfygd0hyy42c8hv6cws83b-binutils-wrapper-2.43.1"
+        }
+      }
+    },
+    "gradle@latest": {
+      "last_modified": "2025-01-20T10:56:48Z",
+      "plugin_version": "0.0.1",
+      "resolved": "github:NixOS/nixpkgs/300081d0cc72df578b02d914df941b8ec62240e6#gradle",
+      "source": "devbox-search",
+      "version": "8.12",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xxa9j6rbsfwyllkrhcz725daz482qvwk-gradle-8.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xxa9j6rbsfwyllkrhcz725daz482qvwk-gradle-8.12"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2k9s3waihn9mslbv43nrfif88s08hk5c-gradle-8.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2k9s3waihn9mslbv43nrfif88s08hk5c-gradle-8.12"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cn0qmmq7n2j6rzyrglzrx6z8rvb40qaj-gradle-8.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cn0qmmq7n2j6rzyrglzrx6z8rvb40qaj-gradle-8.12"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/njjy7jz26p531qa9cj28fkjsx0x2i6q9-gradle-8.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/njjy7jz26p531qa9cj28fkjsx0x2i6q9-gradle-8.12"
+        }
+      }
+    },
+    "jdk23@latest": {
+      "last_modified": "2024-12-23T21:10:33Z",
+      "resolved": "github:NixOS/nixpkgs/de1864217bfa9b5845f465e771e0ecb48b30e02d#jdk23",
+      "source": "devbox-search",
+      "version": "23.0.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mmsg51qmsgp1lhylx96ix4kl0wn9b9fx-zulu-ca-jdk-23.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mmsg51qmsgp1lhylx96ix4kl0wn9b9fx-zulu-ca-jdk-23.0.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/njvhdy2ikgyhwdx7dbpchhx110l40p8i-zulu-ca-jdk-23.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/njvhdy2ikgyhwdx7dbpchhx110l40p8i-zulu-ca-jdk-23.0.0"
+        }
+      }
+    }
+  }
+}
